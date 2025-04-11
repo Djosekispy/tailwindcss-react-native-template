@@ -31,11 +31,6 @@ export default function RootLayout() {
     }
   }, [loaded]);
 
- /* useEffect(() => {
-    setupAxiosInterceptors()
-  }, [api]);
-*/
-  
   if (!loaded) {
     return null;
   }
